@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #666;
+            padding: 10px;
+            text-align: left;
+        }
+        ul {
+            margin-top: 10px;
+        }
+        span.price {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🛒 E-Shop: Online Electronics Store</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#product">Product</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to E-Shop</h2>
+        <p>We bring you the latest gadgets and electronics at unbeatable prices.</p>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product">
+        <h2>Featured Product</h2>
+        <div class="product">
+            <h3>Bluetooth Wireless Headphones</h3>
+            <img src="d:\Users\Hp\Downloads\wireless.jpeg" width="10" height="10" alt="Wireless Headphones">
+            <p>Experience premium sound quality and comfort. Perfect for music lovers and gamers.</p>
+            <p>Price: <span class="price">&#8377;2,999</span></p> <!-- HTML Entity for Rupee symbol -->
+            <a href="https://example.com/product/headphones" target="_blank">Buy Now</a>
+
+            <!-- List Example -->
+            <h4>Highlights</h4>
+            <ul>
+                <li>Noise Cancellation</li>
+                <li>20 Hours Battery Life</li>
+                <li>Fast Charging Support</li>
+            </ul>
+
+            <!-- Table Example -->
+            <h4>Specifications</h4>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Connectivity</td>
+                    <td>Bluetooth 5.0</td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td>Matte Black</td>
+                </tr>
+                <tr>
+                    <td>Warranty</td>
+                    <td>1 Year</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contact Section with Bookmark -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@eshop.com</p>
+        <p>Follow us on <a href="https://instagram.com/eshop" target="_blank">Instagram</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 E-Shop. All rights reserved.</p>
+    </footer>
+
+    <!-- HTML Comment Example -->
+    <!-- This HTML5 page was created for Web Technologies Experiment-1 -->
+
+</body>
+</html>
